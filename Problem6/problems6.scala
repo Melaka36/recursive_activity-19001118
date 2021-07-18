@@ -7,10 +7,10 @@ object problems6 extends App{
     else fibonacci(n-1) +fibonacci(n-2)
   }
 
-  def printFibonacci(n:Int):Any={
-    if(n>0)printFibonacci(n-1)
+  def printFib(n:Int):Any={
+    if(n>0)printFib(n-1)
     println(fibonacci(n))
 
   }
-  printFibonacci(10)
+  printFib(10)
 }
